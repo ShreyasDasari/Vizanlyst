@@ -18,7 +18,7 @@ st.sidebar.markdown("[☕ Buy Me a Coffee](https://buymeacoffee.com/shreyas.dasa
 
 # File uploader
 st.header("📊 Upload Your Dataset")
-st.write("Upload your dataset, and our system will automatically clean, analyze, and visualize it. This tool helps data analysts and business professionals save hours of manual work by generating insights quickly. [View the GitHub Repository](https://github.com/your-repo-link)")
+st.write("Upload your dataset, and our system will automatically clean, analyze, and visualize it. This tool helps data analysts and business professionals save hours of manual work by generating insights quickly. [View the GitHub Repository](https://github.com/ShreyasDasari/Vizanlyst)")
 file = st.file_uploader("Upload a CSV or Excel file", type=["csv", "xlsx"])
 
 def clean_data(df):
